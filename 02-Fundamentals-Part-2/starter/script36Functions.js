@@ -27,7 +27,7 @@ const calcAge = function(birthYear) {
         console.log(`${firstName} has already retired`);
         return -1;
     }
-    return retirement;
 }
 console.log(yearsUntilRetirementt(1991, 'Jonas'));
 console.log(yearsUntilRetirementt(1950, 'Mike'));
+
