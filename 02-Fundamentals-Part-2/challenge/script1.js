@@ -43,3 +43,10 @@ console.log(checkWinner(scoreDolphins,scoreKoalas));
 // avgKoalas = calcAverage(23, 34, 27);
 // console.log(`Dolphins score: ${avgDolphins}, Koalas score: ${avgKoalas}.`);
 // checkWinner(avgDolphins, avgKoalas);
+
+function addition(num) {
+    //console.log(`${num}`);
+    return ++num;
+}
+//addition(5);
+console.log(addition(7));

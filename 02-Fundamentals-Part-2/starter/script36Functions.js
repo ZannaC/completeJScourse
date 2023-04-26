@@ -30,4 +30,3 @@ const calcAge = function(birthYear) {
 }
 console.log(yearsUntilRetirementt(1991, 'Jonas'));
 console.log(yearsUntilRetirementt(1950, 'Mike'));
-
