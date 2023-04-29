@@ -22,7 +22,7 @@ function calcTip(bill) {
   }
  calcTip(100);
 
- const bills = [125, 555, 44];
+ const bills = [1100, 86, 52];
  console.log(`bills: ${bills}`);
 //  const bill1 = newBill(bills[0]);
 //  const bill2 = newBill(bills[1]);

@@ -39,8 +39,17 @@ for (let i = 0; i < years.length; i++) {
 console.log(ages);
 
 /// continue and break
+console.log('--- only strings ---');
 for (let i = 0; i < jonas.length; i++) {
     if (typeof jonas[i] !== 'string') continue;
+
+    console.log(jonas[i], typeof jonas[i]);
+}
+
+/// break is to completely terminate the whole loop
+console.log('--- break with number ---');
+for (let i = 0; i < jonas.length; i++) {
+    if (typeof jonas[i] === 'number') break;
 
     console.log(jonas[i], typeof jonas[i]);
 }
