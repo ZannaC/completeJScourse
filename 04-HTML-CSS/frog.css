@@ -1,0 +1,137 @@
+* {
+  background: #a3ea4c;
+  margin: 0;
+  padding: 0;
+}
+/*
+justify-content:
+flex-start: Items align to the left side of the container.
+flex-end: Items align to the right side of the container.
+center: Items align at the center of the container.
+space-between: Items display with equal spacing between them.
+space-around: Items display with equal spacing around them.
+
+Now use   align-items  to help the frogs get to the bottom of the pond. This CSS property aligns items VERTICALLY and accepts the following values:
+flex-start:  Items align to the top of the container.
+flex-end:    Items align to the bottom of the container.
+center:      Items align at the vertical center of the container.
+baseline:    Items display at the baseline of the container.
+stretch:     Items are stretched to fit the container.
+
+
+
+The frogs need to get in the same order as their lilypads using flex-direction. This CSS property defines the direction items are placed in the container, and accepts the following values:
+
+row:               Items are placed the same as the text direction.
+row-reverse:       Items are placed opposite to the text direction.
+column:            Items are placed top to bottom.
+column-reverse:    Items are placed bottom to top.
+
+/* .frog {
+  display: flex;
+  justify-content: space-around;
+} */
+/* 
+.frog image {
+  width: 30px;
+  height: 16px;
+} */
+
+/* nav {
+  display: flex;
+  justify-content: space-around;
+  align-items:flex-end;
+} */
+/* 
+nav {
+  display: flex;
+  align-items: flex-start;
+} */
+
+/* .frog {
+  display: flex;
+  justify-content: flex-sta;
+  align-items:self-end;
+} */
+
+#pond {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+#pond {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#pond {
+  display: flex;
+}
+.yellow {
+  order: 3;
+}
+
+#pond {
+    display: flex;
+    align-items: flex-start;
+  }
+  .yellow {
+  align-items: flex-end;
+  align-self: flex-end;
+  }
+
+  #pond {
+    display: flex;
+    align-items: flex-start;
+  }
+  .yellow {
+  order: 4; 5;
+  align-self: flex-end;
+  }
+
+  #pond {
+display: flex;
+  flex-wrap: wrap;
+  }
+
+  #pond {
+    display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  }
+
+  #pond {
+    display: flex;
+    flex-wrap: wrap;
+  align-content: flex-end;
+  }
+
+.container {
+  background-color: blue;
+  width: 1000px;
+  height: 500px;
+}
+.frog {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  padding: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: blue;
+}
+nav a image {
+  width: 14.01px;
+  height: 8.01px;
+  border-color: blue;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 35px;
+}
