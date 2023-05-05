@@ -12,3 +12,21 @@ const printForecast = function (arr) {
 };
 printForecast(data2);
 
+//////////////////////
+function nameString(name){
+  	return 'Edabit' + name;
+} 
+console.log(nameString('Zanna')); 
+console.log(nameString('Jonas')); 
+console.log('\n');
+
+let name2String = function (name2) {
+  return 'Edabit' + name2;
+}
+console.log(name2String('Zanna2'));
+console.log(name2String('Jonas2'));
+console.log('\n');
+
+const  name3String= (name3) => 'Edabit' + name3;
+console.log(name3String('Zanna3'));
+console.log(name3String('Jonas3'));

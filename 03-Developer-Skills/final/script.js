@@ -162,3 +162,8 @@ const printForecast = function (arr) {
 };
 printForecast(data1);
 */
+function nameString(name){
+	var b = "Edabit"
+	var result = name + b
+  	return result
+}
