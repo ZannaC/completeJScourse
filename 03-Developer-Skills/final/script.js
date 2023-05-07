@@ -162,8 +162,16 @@ const printForecast = function (arr) {
 };
 printForecast(data1);
 */
-function nameString(name){
-	var b = "Edabit"
-	var result = name + b
-  	return result
+function nameString(name) {
+  var b = 'Edabit';
+  var result = name + b;
+  return result;
 }
+
+function greeting(name) {if (name != 'Mubashir')
+  return 'Hello, ' + name + '!';
+  else {
+    return 'Hello, my Love!';
+  }
+}
+console.log(greeting('Mubashir'));
