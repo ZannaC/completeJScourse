@@ -11,5 +11,4 @@ for (let i = 0; i < btnsOpenModal.length; i++)
     console.log('Button clicked');
     modal.classList.remove('hidden');
     overlay.classList.remove('hidden');
-    // modal.style.display = 'block';
   });

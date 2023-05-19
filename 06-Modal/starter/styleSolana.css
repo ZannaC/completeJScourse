@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+body {
+  font-family: sans-serif;
+  color: #333;
+  line-height: 1.5;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background: linear-gradient(to top left, #28b487, #7dd56f);
+}
+
+.update-evenMore-section {
+  display: flex;
+
+  background-color: #1e1e1e;
+  height: 560.59px;
+}
+
+.update-evenMore-container {
+  display: flex;
+  justify-content: space-around;
+  width: 1084.97px;
+  padding-top: 127px;
+}
+
+.update-block {
+  justify-content: center;
+  box-sizing: border-box;
+  width: 560px;
+  height: 357px;
+  border-radius: 14px;
+  background: rgba(25, 22, 28, 1);
+  box-shadow: 0px 58px 80px rgba(0, 0, 0, 0.16);
+  padding: 49px 63.4px 45.6px 54.2px;
+}
+
+.evenMore-block {
+  justify-content: center;
+  box-sizing: border-box;
+  width: 560px;
+  height: 357px;
+  border-radius: 14px;
+  background: rgba(25, 22, 28, 1);
+  box-shadow: 0px 58px 80px rgba(0, 0, 0, 0.16);
+  padding: 49px 64.95px 53.69px 54.2px;
+}
+
+.block-title,
+.evenMore-block-title {
+  font-family: 'Helvetica';
+  font-weight: 400;
+  font-size: 36px;
+  color: #ffffff;
+  text-align: left;
+  padding-bottom: 29px;
+}
+
+.evenMore-block-title {
+  font-family: 'Helvetica';
+  font-weight: 400;
+  font-size: 35px;
+  color: #ffffff;
+  text-align: left;
+  padding-bottom: 29px;
+}
+
+.block-info {
+  font-family: 'Helvetica';
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27.3px;
+  color: #c4c4c4;
+  width: 400px;
+  text-align: left;
+  padding-bottom: 76.31px;
+}
+
+.evenMore-block-info {
+  font-family: 'Helvetica';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27.3px;
+  color: #c4c4c4;
+  width: 400px;
+  text-align: left;
+  padding-bottom: 61.31px;
+}
+
+.update-btn-block {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400.56px;
+  height: 64px;
+  background: rgba(10, 10, 10, 1);
+  border-radius: 800px;
+  padding: 9px 10px;
+}
+
+.evenMore-btn-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.email-text {
+  display: flex;
+  box-sizing: border-box;
+  width: 61px;
+  height: 20px;
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 600;
+  color: rgba(132, 136, 149, 1);
+  justify-content: center;
+}
+
+.show-modal {
+  display: flex;
+  box-sizing: border-box;
+  width: 130px;
+  height: 46px;
+  background: #14f195;
+  border: 1px solid #000000;
+  border-radius: 800px;
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.close-modal {
+  position: fixed;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #efce13;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.hidden {
+  display: none;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
