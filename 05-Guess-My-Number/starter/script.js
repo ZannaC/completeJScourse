@@ -37,11 +37,14 @@ document.querySelector('.check').addEventListener('click', function () {
     document.querySelector('body').style.backgroundColor = '#60b347';
     document.querySelector('.number').style.width = '30rem';
 
+<<<<<<< HEAD
     if (score > highscore) {
       highscore = score;
     }
     document.querySelector('.highscore').textContent = highscore;
 
+=======
+>>>>>>> 66743cf99ff19eba11968f5fc4cd1c5486d40ea5
     //when guess is too high
   } else if (guess > secretNumber) {
     if (score > 1) {
