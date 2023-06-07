@@ -76,6 +76,31 @@ for (const x of entries) {
 }
 
 /// [key, value]
-for (const [key, {open, close}] of entries) {
+for (const [key, { open, close }] of entries) {
   console.log(`On ${key} we open at ${open} and close ${close}`);
 }
+
+///Looping through objects
+
+const dog = {
+  breed: 'poodle',
+  age: 6,
+};
+
+for (const [key, value] of Object.entries(dog)) {
+  console.log(`${key}: ${value}`);
+}
+// breed: poodle
+// age: 6
+
+for (const key of Object.keys(dog)) {
+  console.log(`${key}`);
+}
+// breed
+// age
+
+for (const val of Object.values(dog)) {
+  console.log(`${val}`);
+}
+//  poodle
+//  6
