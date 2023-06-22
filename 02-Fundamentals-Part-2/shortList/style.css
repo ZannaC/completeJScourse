@@ -1,0 +1,26 @@
+.out-1,
+.out-2,
+.out-3 {
+  box-sizing: border-box;
+  background-color: aqua;
+  width: 40px;
+  height: 20px;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 3px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  /* row-gap: 10px; */
+  /* margin: 10px; */
+}
+.section {
+  box-sizing: border-box;
+  height: 60px;
+  width: 150px;
+  background-color: coral;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 3px;
+}
